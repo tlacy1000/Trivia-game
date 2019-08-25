@@ -1,0 +1,77 @@
+#banner{
+    font-size:  36px;
+    font-weight: bold;
+    color:  rgb(212, 68, 32);
+    text-align: center;
+    font-family: 'helvetica';
+}
+
+.btn-primary-spacing {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    font-weight: bold;
+    
+}
+
+.rightOrWrong{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#message{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.questions{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#timer{
+    text-align: center;
+    font-size: 18.72px;
+    font-weight: bold;
+}
+
+.answer{
+    text-align: center;
+}
+
+#question{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-image: url('../images/borntokill.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#container{
+    background-color: white;
+    opacity: .8;
+}
+
+#image-view{
+    text-align: center;
+}
+
+.picAnswer{
+    width: 250px;
+    height: auto;
+}
