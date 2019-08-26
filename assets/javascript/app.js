@@ -26,7 +26,7 @@ const myQuestions = [
         },
         correctAnswer: 'a',
         longAnswer: 'JFK was the 35th president of the United States.',
-        picture: '../assets/images/jfk.jpg'
+        picture: 'assets/images/jfk.jpg'
     },
     {
         question: "What two events took place in the same summer?",
@@ -38,7 +38,7 @@ const myQuestions = [
         },
         correctAnswer: 'c',
         longAnswer: 'The summer of love and the moon landing both occured in the summer of 1969.',
-        picture: '../images/lovenotwar.jpg'
+        picture: 'assets/images/lovenotwar.jpg'
     },
     {
         question: "Dubbed the most dangerous man in America, this person was declared a threat to the very fabric of the United States by President Nixon:",
@@ -50,7 +50,7 @@ const myQuestions = [
         },
         correctAnswer: 'b',
         longAnswer: 'Dr. Leary, a Harvard educated psychologist, was declared the most dangerous man in America after he advocated for widespread usage of LSD.',
-        picture: '../images/tunein.jpg'
+        picture: 'assets/images/tunein.jpg'
     },
     {
         question: "What year was the turning point of the Vietnam war?",
@@ -62,7 +62,7 @@ const myQuestions = [
         },
         correctAnswer: 'd',
         longAnswer: 'The Tet offensive is considered the turning point of the Vietnam war, where it was officially ruled as unwinnable.',
-        picture: '../images/tet.jpg'
+        picture: 'assets/images/tet.jpg'
     },
     {
         question: "A vocal opponent of the Vietnam War, this person wrote the anthem Fortunate Son by Creedence Clearwater Revival",
@@ -74,7 +74,7 @@ const myQuestions = [
         },
         correctAnswer: 'a',
         longAnswer: 'John Foggerty is the frontman of CCR and wrote fortunate son.',
-        picture: '../images/ccr2.jpg'
+        picture: 'assets/images/ccr2.jpg'
     },
     {
         question: "The frontman of this band said that he was amazingly jealous yet inspired by The Beatles, especially their Rubber Soul album",
@@ -86,7 +86,7 @@ const myQuestions = [
         },
         correctAnswer: 'c',
         longAnswer: 'Brian Wilson said in an interview that Rubber Soul inspired their hit album Pet Sounds.',
-        picture: '../images/battle.jpg'
+        picture: 'assets/images/battle.jpg'
     },
     {
         question: "This Swiss scientists' accidental discovery later led to the biggest drug of the counter culture movement of the 1960's",
@@ -98,7 +98,7 @@ const myQuestions = [
         },
         correctAnswer: 'a',
         longAnswer: 'Albert Hoffman accidentally discovered LSD while trying to create a new heart medication.',
-        picture: '../images/hoffman.png'
+        picture: 'assets/images/hoffman.png'
     },
     {
         question: "Which of the following governmental agencies attempted to assasinate Fidel Castro using LSD?",
@@ -109,7 +109,7 @@ const myQuestions = [
         },
         correctAnswer: 'a',
         longAnswer:  'This was one of hundreds of failed attempts by the CIA to assasinate Castro.',
-        picture: '../images/plot.jpg'
+        picture: 'assets/images/plot.jpg'
     },
     {
         question: "This 1960s author wrote one of the most prolific novels of her time, and was later awarded numerous honorary PhDs and even a presidental medal of freedom, the highest civilian award available.",
@@ -121,7 +121,7 @@ const myQuestions = [
         },
         correctAnswer: 'c',
         longAnswer: 'Harper Lee wrote To Kill a Mockingbird, and was awarded the presidential medal of freedom in 2003 by former President George Bush. ',
-        picture: '../images/harper.jpg'
+        picture: 'assets/images/harper.jpg'
     },
     {
         question: "LSD was first synthesized from the fungus of what?",
@@ -133,7 +133,7 @@ const myQuestions = [
         },
         correctAnswer: 'b',
         longAnswer:  'Ergot of rye is produced by a lower fungus (Claviceps purpurea) that grows parasitically on rye, and is often used to derive medicinal compounds. One such derivative is Lysergic acid ditheylamide, or LSD. The LSD we know today is known as LSD-25.',
-        picture: '../images/ergot.jpg'
+        picture: 'assets/images/ergot.jpg'
     }
 
     
