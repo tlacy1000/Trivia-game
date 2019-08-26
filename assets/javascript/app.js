@@ -287,7 +287,7 @@ function showEnd(){
     console.log('Game Ended');
     let percentScore = correctCount / myQuestions.length * 100;
     let score = percentScore.toFixed(0);
-    let messages = ['Great job!', 'Satisfactory result.', 'Better hit the books!', 'Ask for your tuition back!']
+    let messages = ['Far out, man!', 'Groovy!', 'Better hit the books!', 'Tune in and turn on, but do not drop out! Time to study some 60s, man!']
     let message;
     if(score > 89){ message = messages[0]} else {
         if(score>79) {message = messages[1]} else {
