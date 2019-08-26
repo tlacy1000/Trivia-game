@@ -26,7 +26,7 @@ const myQuestions = [
         },
         correctAnswer: 'a',
         longAnswer: 'JFK was the 35th president of the United States.',
-        picture: 'https://github.com/tlacy1000/Trivia-game/blob/master/assets/images/jfk.jpg'
+        picture: '../assets/images/jfk.jpg'
     },
     {
         question: "What two events took place in the same summer?",
