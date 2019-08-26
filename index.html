@@ -1,99 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href='../TriviaGame/Assets/css/reset.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">   
+        <link rel="stylesheet" href='../TriviaGame/Assets/css/style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>New York Times Search</title>
-
-  <!-- Bootsrap to reduce work time-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
-
-
- 
-</head>
-
-<body>
-
-  <div class="container">
-
-    <!-- Jumbotron for Title -->
-    <div class="jumbotron" style="background-color: navy ; color: white;">
-      <h1 class="text-center">New York Times Search</h1>
-    </div>
-
-    <!-- Row for Searching New York Times -->
-    <div class="row">
-      <div class="col-sm-12">
-        <br>
-        <!-- First panel is for handling the search parameters -->
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">  Search Parameters</h3>
-          </div>
-          <div class="panel-body">
-
-         
-
-              <!-- capturing search term-->
-              <div class="form-group">
-                <label for="search">Search Term:</label>
-                <input type="text" class="form-control" id="search-term">
-              </div>
-
-              <!-- capture the number of records  to retrieve  -->
-              <div class="form-group">
-                <label for="pwd">Number of Records to Retrieve:</label>
-              
-				
-              </div>
-
-              <!--  capture Start Year -->
-              <div class="form-group">
-                <label for="start-year">Start Year:</label>
-                <input type="text" class="form-control" id="start-year">
-              </div>
-
-              <!-- capture the End Year  -->
-              <div class="form-group">
-                <label for="end-year">End Year:</label>
-                <input type="text" class="form-control" id="end-year">
-              </div>
-
-              <!-- submit button -->
-              <button type="submit" class="btn btn-default" id="run-search">Search</button>
-              <button type="button" class="btn btn-default" id="clear-all">Clear Results</button>
-
-          
-          </div>
+    <body>
+        <div id='container' class ='container-fluid col-md-8 offset-md-2'>
+            <div id="banner" class='container-fluid col-md-8 offset-md-2'> 1960s History Trivia Game!</div>
+            <div id="timer" class ='container-fluid col-md-8 offset-md-2'> Time Remaining: </div>
+            <div id='question' class='container-fluid col-md-8 offset-md-2'></div>
+            <div id='answer1' class='container-fluid col-md-8 offset-md-2 answer'></div>
+            <div id='answer2' class='container-fluid col-md-8 offset-md-2 answer'></div>
+            <div id='answer3' class='container-fluid col-md-8 offset-md-2 answer'></div>
+            <div id='answer4' class='container-fluid col-md-8 offset-md-2 answer'></div>
+            <div id='image-view' class='container-fluid col-md-8 offset-md-2 image'></div>
         </div>
-      </div>
-    </div>
+        <script src="Assets/javascript/app.js"></script>
 
-    <!-- retrieved articles -->
-    <div class="row">
-      <div class="col-sm-12">
-        <br>
-
-          <!-- Panel Heading for the retrieved articles box -->
-          <div class="panel-heading">
-            <h3 class="panel-title"> Top Articles</h3>
-          </div>
-
-          <!-- Hold resulting articles -->
-          <div class="panel-body" id="well-section">
-          </div>
-      
-    </div>
-
-  </div>
-
-  <!-- jQuery JS -->
-  <script src="https://code.jquery.com/jquery.js"></script>
-
-  <!-- Code to the JavaScript File -->
-  <script src="app.js"></script>
-
-</body>
-
+    </body>
 </html>
