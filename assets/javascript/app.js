@@ -38,7 +38,7 @@ const myQuestions = [
         },
         correctAnswer: 'c',
         longAnswer: 'The Stonewall riots and the moon landing both occured in the summer of 1969.',
-        picture: 'assets/images/lovenotwar.jpg'
+        picture: 'assets/images/stonewall.jpg'
     },
     {
         question: "Dubbed the most dangerous man in America, this person was declared a threat to the very fabric of the United States by President Nixon:",
@@ -49,7 +49,7 @@ const myQuestions = [
             d: 'Malcolm X'
         },
         correctAnswer: 'b',
-        longAnswer: 'Dr. Leary, a Harvard educated psychologist, was declared the most dangerous man in America after he advocated for widespread usage of LSD.',
+        longAnswer: 'Dr. Leary, a Harvard psychologist, was declared the most dangerous man in America after he advocated for widespread usage of LSD.',
         picture: 'assets/images/tunein.jpg'
     },
     {
@@ -117,7 +117,7 @@ const myQuestions = [
             a: 'Rachel Carson',
             b: 'Vicki Baum',
             c: 'Harper Lee',
-            d: 'Madeline LEngle'
+            d: 'Madeline Lengle'
         },
         correctAnswer: 'c',
         longAnswer: 'Harper Lee wrote To Kill a Mockingbird, and was awarded the presidential medal of freedom in 2003 by former President George Bush. ',
@@ -127,8 +127,8 @@ const myQuestions = [
         question: "LSD was first synthesized from the fungus of what?",
         answers: {
             a: 'Trolgot',
-            b: 'ergot',
-            c: 'eomycota',
+            b: 'Ergot',
+            c: 'Eomycota',
             d: 'Hyphomycetes'
         },
         correctAnswer: 'b',
