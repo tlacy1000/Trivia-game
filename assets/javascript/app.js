@@ -33,11 +33,11 @@ const myQuestions = [
         answers: {
             a: 'Moon landing and MLK assasination',
             b: 'Summer of love and the Tet offensive',
-            c: 'Summer of love and Moon landing',
+            c: 'Stonewall riots and Moon landing',
             d: 'Kent State Massacre and Summer of love'
         },
         correctAnswer: 'c',
-        longAnswer: 'The summer of love and the moon landing both occured in the summer of 1969.',
+        longAnswer: 'The Stonewall riots and the moon landing both occured in the summer of 1969.',
         picture: 'assets/images/lovenotwar.jpg'
     },
     {
